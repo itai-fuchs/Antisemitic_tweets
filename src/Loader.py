@@ -5,7 +5,7 @@ import os
 
 class Loader:
     """
-    A class to convert various file formats into df.
+    convert various file formats into DataFrame.
     """
 
     def __init__(self, file_path):
@@ -34,5 +34,4 @@ class Loader:
         return df
 
 
-a=Loader("../Data/tweets_dataset.csv")
-print(a.table)
+
